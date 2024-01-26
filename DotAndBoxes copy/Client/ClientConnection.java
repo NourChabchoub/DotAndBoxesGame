@@ -71,9 +71,9 @@ public class ClientConnection extends SocketConnection {
             case Protocol.GAMEOVER -> {
                 System.out.println(Protocol.GAMEOVER + Protocol.SEPARATOR + list[1] + list[2]);
             }
-            case Protocol.MOVE -> {
-                System.out.println(username + "made the move: " + )
-            }
+//     TODO: case Protocol.MOVE -> {
+//                System.out.println(username + "made the move: " + )
+//            }
 
 
         }
